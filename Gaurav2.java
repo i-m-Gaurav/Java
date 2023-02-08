@@ -36,7 +36,7 @@ class bin_fact_ncr_prime {
         if (n == 1) {
             return true;
         }
-        if (i == n/2) {
+        if (i == n/2+1) {
             return true;
         }
         if (n % i == 0) {
